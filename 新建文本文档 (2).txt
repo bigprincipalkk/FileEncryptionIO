@@ -1,0 +1,25 @@
+上海万得：
+hashmap hashtable 线程安全问题
+jvm 内存分配与销毁
+java 多线程  死锁
+tcp 三次握手跟四次握手
+做过项目 用的技术栈
+
+
+北京安硕：
+list set map
+jdk jre jvm
+collection跟collections的区别
+如果避免sql注入
+mysql 视图 索引   有哪些函数
+spring bean作用域
+servlet生命周期
+mybatis  分页  ${} #{}区别     如何实现主键的自增
+java如何实现线程同步   wait跟sleep区别
+spring有哪几种设计模式
+xml文件中有哪些标签
+
+
+create table fileTable (file_size bigint,file_type VARCHAR(36),create_time VARCHAR(36),save_path VARCHAR(100),org_name VARCHAR(100),mataData VARCHAR(200),uuid VARCHAR(200));
+
+

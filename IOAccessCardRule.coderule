@@ -1,0 +1,108 @@
+{
+  "Header": {
+    "ID": "d2b92c64-8834-438d-ad1f-2dd606ac8585",
+    "CertID": null,
+    "NameSpace": "Inspur.GS.GSXMSM.GSXMSMBD.SMIOPA",
+    "Code": "IOAccessCardRule",
+    "Name": "出入记录编号规则",
+    "FileName": "IOAccessCardRule.coderule",
+    "Type": "CodeRule",
+    "BizobjectID": "d4ac9cfd-6dc6-ebc7-a5f5-939fa40d6077",
+    "Language": null,
+    "IsTranslating": false,
+    "Extendable": false
+  },
+  "Refs": [
+    {
+      "Metadata": {
+        "ID": "d2b92c64-8834-438d-ad1f-2dd606ac8585",
+        "CertID": null,
+        "NameSpace": "Inspur.GS.GSXMSM.GSXMSMBD.SMIOPA",
+        "Code": "IOAccessCardRule",
+        "Name": "出入记录编号规则",
+        "FileName": "IOAccessCardRule.coderule",
+        "Type": "CodeRule",
+        "BizobjectID": "d4ac9cfd-6dc6-ebc7-a5f5-939fa40d6077",
+        "Language": null,
+        "IsTranslating": false,
+        "Extendable": false
+      },
+      "DependentMetadata": {
+        "ID": "d2026996-5eb8-4af2-85d5-6a447e46808b",
+        "CertID": null,
+        "NameSpace": "Inspur.GS.GSXMSM.GSXMSMBD.SMIOPA",
+        "Code": "IOAccessCardRule.coderule",
+        "Name": "IOAccessCardRule.coderule",
+        "FileName": "IOAccessCardRule.coderule.res",
+        "Type": "ResourceMetadata",
+        "BizobjectID": "d4ac9cfd-6dc6-ebc7-a5f5-939fa40d6077",
+        "Language": null,
+        "IsTranslating": false,
+        "Extendable": false
+      },
+      "ReferenceDetail": null
+    }
+  ],
+  "Content": {
+    "Id": "d2b92c64-8834-438d-ad1f-2dd606ac8585",
+    "Code": "IOAccessCardRule",
+    "Name": "出入记录编号规则",
+    "Description": null,
+    "CodeRule": {
+      "Type": "0",
+      "Content": {
+        "Segments": [
+          {
+            "Type": "0",
+            "Content": {
+              "SegmentCode": "RY",
+              "SegmentName": "人员",
+              "Value": "RY",
+              "IsUseShow": true,
+              "IsDimension": true
+            }
+          },
+          {
+            "Type": "1",
+            "Content": {
+              "SegmentCode": "curTime",
+              "SegmentName": "当前日期",
+              "IsUseShow": true,
+              "IsDimension": true,
+              "Express": "{\"expr\":\"DefaultFunction.FormatDate(\\\"yyyyMMdd\\\")\"}"
+            }
+          },
+          {
+            "Type": "2",
+            "Content": {
+              "SegmentCode": "cardOrder",
+              "SegmentName": "顺序号",
+              "IsUseShow": true,
+              "IsDimension": true,
+              "Start": 1,
+              "Step": 1,
+              "Length": 6
+            }
+          }
+        ],
+        "IsBrokenUse": false,
+        "ExtensionInfo": {
+          "ModelId": "955d7064-907b-4fef-8a5b-0df583f39c45",
+          "ModelCode": "PeopleAccess",
+          "ModelName": "人员进出登记",
+          "ModelPath": "GSXMSM/GSXMSMBD/SMIOPA/bo-smiopa/metadata/be",
+          "Mappings": []
+        },
+        "Id": "d2b92c64-8834-438d-ad1f-2dd606ac8585",
+        "Code": "IOAccessCardRule",
+        "Name": "出入记录编号规则",
+        "Description": null
+      }
+    }
+  },
+  "RelativePath": "GSXMSM/GSXMSMBD/SMIOPA/bo-smiopa/metadata/coderule",
+  "ExtendProperty": "",
+  "Extended": null,
+  "PreviousVersion": null,
+  "Version": null
+}
